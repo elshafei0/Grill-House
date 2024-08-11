@@ -228,7 +228,6 @@ button:active {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: blanchedalmond;
 }
 
 .third-div p {
@@ -249,6 +248,7 @@ h2 {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  background-color: blanchedalmond;
 }
 .btn-hand {
   display: flex;
