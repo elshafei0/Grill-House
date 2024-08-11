@@ -409,6 +409,7 @@ footer span {
   .before-footer {
     gap: 10px;
     width: 400px;
+    margin: auto;
   }
   footer {
     flex-direction: column;
