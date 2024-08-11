@@ -322,6 +322,7 @@ footer span {
   font-family: "Courier New", Courier, monospace;
   letter-spacing: 3px;
   color: rgb(0, 0, 255);
+  transition: all 400ms ease-out;
 }
 @media (min-width: 100px) and (max-width: 355px) {
   #responsive {
