@@ -35,7 +35,7 @@ night.addEventListener("click", function () {
         document.querySelector(".hr").style.backgroundColor = "white";
         document.querySelector(".name").style.color = "yellow";
         document.querySelector(".frist-btn").style.color = "white";
-        document.querySelector(".frist-btn").style.backgroundColor = "black";
+        document.querySelector(".frist-btn").style.backgroundColor = "green";
       }
       break;
     case 0: {
@@ -44,7 +44,7 @@ night.addEventListener("click", function () {
       document.querySelector(".hr").style.backgroundColor = "black";
       document.querySelector(".name").style.color = "blue";
       document.querySelector(".frist-btn").style.color = "white";
-      document.querySelector(".frist-btn").style.backgroundColor = "green";
+      document.querySelector(".frist-btn").style.backgroundColor = "black";
     }
   }
 });
@@ -60,7 +60,7 @@ night_resp.addEventListener("click", function () {
         document.querySelector(".hr").style.backgroundColor = "white";
         document.querySelector(".name").style.color = "yellow";
         document.querySelector(".frist-btn").style.color = "white";
-        document.querySelector(".frist-btn").style.backgroundColor = "black";
+        document.querySelector(".frist-btn").style.backgroundColor = "green";
       }
       break;
     case 0: {
@@ -69,7 +69,7 @@ night_resp.addEventListener("click", function () {
       document.querySelector(".hr").style.backgroundColor = "black";
       document.querySelector(".name").style.color = "blue";
       document.querySelector(".frist-btn").style.color = "white";
-      document.querySelector(".frist-btn").style.backgroundColor = "green";
+      document.querySelector(".frist-btn").style.backgroundColor = "black";
     }
   }
 });
