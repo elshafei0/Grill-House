@@ -30,11 +30,17 @@ night.addEventListener("click", function () {
   switch (currentIndex) {
     case 1:
       {
-        body.style.backgroundColor = "blue";
+        body.style.backgroundColor = "black";
+        body.style.color = "white";
+        document.querySelector(".hr").style.backgroundColor = "white";
+        document.querySelector(".name").style.color = "yellow";
       }
       break;
     case 0: {
       body.style.backgroundColor = "white";
+      body.style.color = "black";
+      document.querySelector(".hr").style.backgroundColor = "black";
+      document.querySelector(".name").style.color = "blue";
     }
   }
 });
@@ -48,12 +54,15 @@ night_resp.addEventListener("click", function () {
         body.style.backgroundColor = "black";
         body.style.color = "white";
         document.querySelector(".hr").style.backgroundColor = "white";
+        document.querySelector(".name").style.color = "yellow";
       }
       break;
     case 0: {
       body.style.backgroundColor = "white";
       body.style.color = "black";
       document.querySelector(".hr").style.backgroundColor = "black";
+      document.querySelector(".name").style.color = "blue";
+      //document.querySelector(".p").style.color = "black";
     }
   }
 });

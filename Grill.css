@@ -28,6 +28,7 @@ header {
 header p {
   font-size: 20px;
   font-weight: bold;
+  color: black;
 }
 
 .svg {
@@ -78,6 +79,7 @@ header ul {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
   /* transition: all 300ms ease-out; */
 }
@@ -91,6 +93,9 @@ header ul {
   height: 100%;
   background-color: red;
   transition: all 200ms ease-out;
+  top: 110px;
+  border-radius: 10px;
+  z-index: 1;
 }
 #responsive a,
 ul {
@@ -127,7 +132,7 @@ ul {
   gap: 10px;
   align-items: center;
 }
-.btn-p button {
+button {
   padding: 10px;
   width: fit-content;
   color: white;
@@ -220,7 +225,7 @@ button:active {
   font-size: 17px;
 }
 .third-div {
-  margin-top: 40px;
+  margin-top: 50px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -230,12 +235,95 @@ button:active {
   font-size: 20px;
   line-height: 1.5;
 }
-.third-div h2 {
+h2 {
   font-size: 40px;
 }
 
 .third-div img {
   width: 500px;
+}
+.with-img {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.btn-hand {
+  display: flex;
+  gap: 210px;
+  align-items: center;
+}
+.btn-hand img {
+  width: 120px;
+  cursor: pointer;
+}
+.fourth-div {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.girl {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+.p-p {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.girl span {
+  font-weight: bolder;
+}
+.before-footer {
+  width: 90%;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.before-footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+footer {
+  margin-top: 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  width: 100%;
+  height: fit-content;
+}
+footer p {
+  font-size: 20px;
+}
+
+.svg-footer {
+  width: 35px;
+  cursor: pointer;
+}
+footer span {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 3px;
+  color: rgb(0, 0, 255);
+}
+@media (min-width: 100px) and (max-width: 355px) {
+  #responsive {
+    top: 180px;
+    z-index: 1;
+  }
 }
 @media (min-width: 900px) and (max-width: 1240px) {
   .menu-img {
@@ -306,5 +394,26 @@ button:active {
   }
   .img-second {
     gap: 15px;
+  }
+  .third-div {
+    flex-direction: column-reverse;
+    width: fit-content;
+  }
+  .girl {
+    flex-direction: column;
+  }
+  .fourth-div h2 {
+    font-size: 25px;
+  }
+  .before-footer {
+    gap: 10px;
+    width: 400px;
+  }
+  footer {
+    flex-direction: column;
+    gap: 30px;
+  }
+  footer p {
+    margin-bottom: 15px;
   }
 }
